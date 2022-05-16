@@ -9,9 +9,8 @@ x|>
   dplyr::rename(
     id_municipio = code_muni,
     nome_municipio = name_muni,
-    codigo_estado = code_state,
+    id_uf = code_state,
     sigla_uf = abbrev_state,
     geometria = geom
                 )
-
 str(x)
